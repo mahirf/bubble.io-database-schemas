@@ -1,0 +1,284 @@
+{
+  "version": "1.0",
+  "optionSets": [
+    {
+      "id": "os_app_role",
+      "name": "OS App role",
+      "values": [
+        {
+          "id": "role_admin",
+          "name": "Admin",
+          "dbValue": "admin",
+          "sort": 1
+        },
+        {
+          "id": "role_staff",
+          "name": "Staff",
+          "dbValue": "staff",
+          "sort": 2
+        },
+        {
+          "id": "role_customer",
+          "name": "Customer",
+          "dbValue": "customer",
+          "sort": 3
+        }
+      ],
+      "attributes": null
+    },
+    {
+      "id": "os_order_status",
+      "name": "OS Order Status",
+      "values": [
+        {
+          "id": "order_pending",
+          "name": "Pending",
+          "dbValue": "pending",
+          "sort": 1
+        },
+        {
+          "id": "order_preparing",
+          "name": "Preparing",
+          "dbValue": "preparing",
+          "sort": 2
+        },
+        {
+          "id": "order_ready",
+          "name": "Ready",
+          "dbValue": "ready",
+          "sort": 3
+        },
+        {
+          "id": "order_completed",
+          "name": "Completed",
+          "dbValue": "completed",
+          "sort": 4
+        },
+        {
+          "id": "order_cancelled",
+          "name": "Cancelled",
+          "dbValue": "cancelled",
+          "sort": 5
+        }
+      ],
+      "attributes": null
+    }
+  ],
+  "userTypes": [
+    {
+      "id": "user",
+      "name": "User",
+      "fields": [
+        {
+          "id": "name_text",
+          "name": "Name",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "email_text",
+          "name": "Email",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "app_role_option_os_app_role",
+          "name": "App Role",
+          "type": "option.os_app_role",
+          "isList": false,
+          "default": "customer"
+        }
+      ],
+      "privacyRoles": [
+        {
+          "id": "everyone",
+          "name": "everyone",
+          "permissions": {
+            "view_all": false,
+            "search_for": false,
+            "auto_binding": false,
+            "view_attachments": false
+          },
+          "condition": null
+        }
+      ]
+    },
+    {
+      "id": "menu_category",
+      "name": "Menu Category",
+      "fields": [
+        {
+          "id": "name_text",
+          "name": "Name",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "sort_order_number",
+          "name": "Sort Order",
+          "type": "number",
+          "isList": false,
+          "default": 0
+        },
+        {
+          "id": "is_active_boolean",
+          "name": "Is Active",
+          "type": "boolean",
+          "isList": false,
+          "default": true
+        }
+      ],
+      "privacyRoles": []
+    },
+    {
+      "id": "menu_item",
+      "name": "Menu Item",
+      "fields": [
+        {
+          "id": "name_text",
+          "name": "Name",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "description_text",
+          "name": "Description",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "price_number",
+          "name": "Price",
+          "type": "number",
+          "isList": false,
+          "default": 0
+        },
+        {
+          "id": "category_custom_menu_category",
+          "name": "Category",
+          "type": "custom.menu_category",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "is_available_boolean",
+          "name": "Is Available",
+          "type": "boolean",
+          "isList": false,
+          "default": true
+        },
+        {
+          "id": "modifiers_list_custom_modifier",
+          "name": "Modifiers",
+          "type": "list.custom.modifier",
+          "isList": true,
+          "default": null
+        }
+      ],
+      "privacyRoles": []
+    },
+    {
+      "id": "modifier",
+      "name": "Modifier",
+      "fields": [
+        {
+          "id": "name_text",
+          "name": "Name",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "price_number",
+          "name": "Price",
+          "type": "number",
+          "isList": false,
+          "default": 0
+        },
+        {
+          "id": "is_active_boolean",
+          "name": "Is Active",
+          "type": "boolean",
+          "isList": false,
+          "default": true
+        }
+      ],
+      "privacyRoles": []
+    },
+    {
+      "id": "order",
+      "name": "Order",
+      "fields": [
+        {
+          "id": "user_user",
+          "name": "User",
+          "type": "user",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "status_option_os_order_status",
+          "name": "Status",
+          "type": "option.os_order_status",
+          "isList": false,
+          "default": "pending"
+        },
+        {
+          "id": "total_price_number",
+          "name": "Total Price",
+          "type": "number",
+          "isList": false,
+          "default": 0
+        },
+        {
+          "id": "order_items_list_custom_order_item",
+          "name": "Order Items",
+          "type": "list.custom.order_item",
+          "isList": true,
+          "default": null
+        }
+      ],
+      "privacyRoles": []
+    },
+    {
+      "id": "order_item",
+      "name": "Order Item",
+      "fields": [
+        {
+          "id": "menu_item_custom_menu_item",
+          "name": "Menu Item",
+          "type": "custom.menu_item",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "quantity_number",
+          "name": "Quantity",
+          "type": "number",
+          "isList": false,
+          "default": 1
+        },
+        {
+          "id": "price_number",
+          "name": "Price",
+          "type": "number",
+          "isList": false,
+          "default": 0
+        },
+        {
+          "id": "modifiers_list_custom_modifier",
+          "name": "Modifiers",
+          "type": "list.custom.modifier",
+          "isList": true,
+          "default": null
+        }
+      ],
+      "privacyRoles": []
+    }
+  ]
+}
