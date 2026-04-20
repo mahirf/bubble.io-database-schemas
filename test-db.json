@@ -1,0 +1,110 @@
+{
+  "option_sets": {
+    "os_app_role": {
+      "display": "OS App role",
+      "values": {
+        "bTMQs": {
+          "display": "User",
+          "db_value": "user",
+          "sort_factor": 1
+        },
+        "bTMQt": {
+          "display": "Superadmin",
+          "db_value": "superadmin",
+          "sort_factor": 2
+        }
+      }
+    },
+    "os_prompt_type": {
+      "display": "OS Prompt type",
+      "values": {
+        "bTNez": {
+          "display": "Main",
+          "db_value": "main",
+          "sort_factor": 1
+        },
+        "bTNfD": {
+          "display": "Keyword",
+          "db_value": "keyword",
+          "sort_factor": 2
+        }
+      }
+    }
+  },
+
+  "user_types": {
+    "user": {
+      "display": "User",
+      "fields": {
+        "name_text": {
+          "display": "Full Name",
+          "value": "text"
+        },
+        "app_level_role_option_os_app_role": {
+          "display": "App Level Role",
+          "value": "option.os_app_role",
+          "default_val": "user"
+        }
+      },
+      "privacy_role": {
+        "everyone": {
+          "display": "everyone",
+          "permissions": {
+            "view_all": false,
+            "search_for": false
+          }
+        }
+      }
+    },
+
+    "prompt": {
+      "display": "Prompt",
+      "fields": {
+        "system_text": {
+          "display": "System HTML",
+          "value": "text"
+        },
+        "user_plain_text": {
+          "display": "User Plain",
+          "value": "text"
+        },
+        "prompt_type_option_os_prompt_type": {
+          "display": "Prompt Type",
+          "value": "option.os_prompt_type"
+        }
+      },
+      "privacy_role": {
+        "admin_": {
+          "display": "Admin",
+          "condition": {
+            "type": "CurrentUser",
+            "said": "bmV3c2dlbi05OTg0NQ==",
+            "next": {
+              "type": "Message",
+              "name": "app_level_role_option_os_app_role",
+              "next": {
+                "type": "Message",
+                "name": "equals",
+                "next": {
+                  "type": "OneOptionValue",
+                  "args": {
+                    "properties": {
+                      "option_set": "option.os_app_role",
+                      "option_value": "superadmin"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": true,
+            "view_attachments": true
+          }
+        }
+      }
+    }
+  }
+}
