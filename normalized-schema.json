@@ -1,0 +1,2022 @@
+{
+  "version": "1.0",
+  "optionSets": [
+    {
+      "id": "os_font",
+      "name": "OS Font",
+      "values": [
+        {
+          "id": "bTLLC",
+          "name": "Inter",
+          "dbValue": "inter",
+          "sort": 1
+        },
+        {
+          "id": "bTLKx",
+          "name": "Noto Sans",
+          "dbValue": "noto_sans",
+          "sort": 2
+        },
+        {
+          "id": "bTLLB",
+          "name": "Manrope",
+          "dbValue": "manrope",
+          "sort": 3
+        }
+      ],
+      "attributes": null
+    },
+    {
+      "id": "os_view",
+      "name": "OS Newsletter View",
+      "values": [
+        {
+          "id": "bTHkI",
+          "name": "create",
+          "dbValue": "create",
+          "sort": 1
+        },
+        {
+          "id": "bTHkH",
+          "name": "edit",
+          "dbValue": "edit",
+          "sort": 2
+        },
+        {
+          "id": "bTHkP",
+          "name": "links",
+          "dbValue": "links",
+          "sort": 3
+        },
+        {
+          "id": "bTHkt",
+          "name": "view",
+          "dbValue": "view",
+          "sort": 4
+        },
+        {
+          "id": "bTIcv",
+          "name": "publish",
+          "dbValue": "publish",
+          "sort": 5
+        },
+        {
+          "id": "bTLiB",
+          "name": "subscribers",
+          "dbValue": "subscribers",
+          "sort": 6
+        }
+      ],
+      "attributes": null
+    },
+    {
+      "id": "os_app_role",
+      "name": "OS App role",
+      "values": [
+        {
+          "id": "bTMQs",
+          "name": "User",
+          "dbValue": "user",
+          "sort": 1
+        },
+        {
+          "id": "bTMQt",
+          "name": "Superadmin",
+          "dbValue": "superadmin",
+          "sort": 2
+        }
+      ],
+      "attributes": null
+    },
+    {
+      "id": "os_auth_view",
+      "name": "OS Auth View",
+      "values": [
+        {
+          "id": "bTJoZ",
+          "name": "login",
+          "dbValue": "login",
+          "sort": 1
+        },
+        {
+          "id": "bTJoa",
+          "name": "signup",
+          "dbValue": "signup",
+          "sort": 2
+        },
+        {
+          "id": "bTJob",
+          "name": "verify",
+          "dbValue": "verify",
+          "sort": 3
+        }
+      ],
+      "attributes": null
+    },
+    {
+      "id": "os_bg_colors",
+      "name": "OS BG Colors",
+      "values": [
+        {
+          "id": "bTLIZ",
+          "name": "#FFFFFF00",
+          "dbValue": "_ffffff00",
+          "sort": 1
+        },
+        {
+          "id": "bTLEx",
+          "name": "#FFFFFF",
+          "dbValue": "_ffffff",
+          "sort": 2
+        },
+        {
+          "id": "bTLFB",
+          "name": "#000000",
+          "dbValue": "_000000",
+          "sort": 3
+        },
+        {
+          "id": "bTLIH",
+          "name": "#C60303",
+          "dbValue": "_c60303",
+          "sort": 4
+        },
+        {
+          "id": "bTLII",
+          "name": "#FF0000",
+          "dbValue": "_ff0000",
+          "sort": 5
+        },
+        {
+          "id": "bTLIJ",
+          "name": "#FFA100",
+          "dbValue": "_ffa100",
+          "sort": 6
+        },
+        {
+          "id": "bTLIN",
+          "name": "#FFEE00",
+          "dbValue": "_ffee00",
+          "sort": 7
+        },
+        {
+          "id": "bTLIO",
+          "name": "#00FF00",
+          "dbValue": "_00ff00",
+          "sort": 8
+        },
+        {
+          "id": "bTLIP",
+          "name": "#00EEFF",
+          "dbValue": "_00eeff",
+          "sort": 9
+        },
+        {
+          "id": "bTLIT",
+          "name": "#0900FF",
+          "dbValue": "_0900ff",
+          "sort": 10
+        },
+        {
+          "id": "bTLIU",
+          "name": "#FF00EA",
+          "dbValue": "_ff00ea",
+          "sort": 11
+        },
+        {
+          "id": "bTLIV",
+          "name": "#B901E2",
+          "dbValue": "_b901e2",
+          "sort": 12
+        }
+      ],
+      "attributes": null
+    },
+    {
+      "id": "os_link_type",
+      "name": "OS Link Type",
+      "values": [
+        {
+          "id": "bTNVD",
+          "name": "Auto",
+          "dbValue": "auto",
+          "sort": 1
+        },
+        {
+          "id": "bTNVH",
+          "name": "User",
+          "dbValue": "user",
+          "sort": 2
+        },
+        {
+          "id": "bTNVI",
+          "name": "API",
+          "dbValue": "api",
+          "sort": 3
+        }
+      ],
+      "attributes": null
+    },
+    {
+      "id": "social_media",
+      "name": "Social Media",
+      "values": [
+        {
+          "id": "bTIwd",
+          "name": "LINKEDIN",
+          "dbValue": "linkedin",
+          "sort": 1
+        },
+        {
+          "id": "bTIqu",
+          "name": "FACEBOOK",
+          "dbValue": "bTckK",
+          "sort": 2
+        },
+        {
+          "id": "bTIqv",
+          "name": "TWITTER",
+          "dbValue": "bTckL",
+          "sort": 3
+        },
+        {
+          "id": "bTMYR",
+          "name": "INSTAGRAM",
+          "dbValue": "instagram",
+          "sort": 4
+        }
+      ],
+      "attributes": null
+    },
+    {
+      "id": "os_font_colors",
+      "name": "OS Font Colors",
+      "values": [
+        {
+          "id": "bTLKT",
+          "name": "#FFFFFF",
+          "dbValue": "_ffffff",
+          "sort": 1
+        },
+        {
+          "id": "bTLKX",
+          "name": "#B8B8B8",
+          "dbValue": "_b8b8b8",
+          "sort": 2
+        },
+        {
+          "id": "bTLKY",
+          "name": "#000000",
+          "dbValue": "_000000",
+          "sort": 3
+        }
+      ],
+      "attributes": null
+    },
+    {
+      "id": "os_prompt_type",
+      "name": "OS Prompt type",
+      "values": [
+        {
+          "id": "bTNez",
+          "name": "Main",
+          "dbValue": "main",
+          "sort": 1
+        },
+        {
+          "id": "bTNfD",
+          "name": "Keyword",
+          "dbValue": "keyword",
+          "sort": 2
+        }
+      ],
+      "attributes": null
+    },
+    {
+      "id": "os_app_defaults",
+      "name": "OS App Defaults",
+      "values": [
+        {
+          "id": "bTMEx",
+          "name": "Cover Banner",
+          "dbValue": "cover_banner",
+          "sort": 1
+        }
+      ],
+      "attributes": {
+        "image": {
+          "display": "image",
+          "value": "image",
+          "creation_source": "editor"
+        }
+      }
+    },
+    {
+      "id": "os_settings_nav",
+      "name": "OS Settings Nav",
+      "values": [
+        {
+          "id": "bTKRx",
+          "name": "profile",
+          "dbValue": "profile",
+          "sort": 1
+        },
+        {
+          "id": "bTKSB",
+          "name": "social",
+          "dbValue": "social",
+          "sort": 2
+        }
+      ],
+      "attributes": null
+    },
+    {
+      "id": "os_color_opacity",
+      "name": "OS Color Opacity",
+      "values": [
+        {
+          "id": "bTLGV",
+          "name": "0",
+          "dbValue": "0_",
+          "sort": 1
+        },
+        {
+          "id": "bTLGW",
+          "name": "10",
+          "dbValue": "10_",
+          "sort": 2
+        },
+        {
+          "id": "bTLGX",
+          "name": "25",
+          "dbValue": "25_",
+          "sort": 3
+        },
+        {
+          "id": "bTLGb",
+          "name": "50",
+          "dbValue": "50_",
+          "sort": 4
+        },
+        {
+          "id": "bTLGc",
+          "name": "75",
+          "dbValue": "75_",
+          "sort": 5
+        },
+        {
+          "id": "bTLGd",
+          "name": "100",
+          "dbValue": "100_",
+          "sort": 6
+        }
+      ],
+      "attributes": {
+        "hex": {
+          "display": "Hex",
+          "value": "text",
+          "creation_source": "editor"
+        }
+      }
+    },
+    {
+      "id": "os_dashboard_nav",
+      "name": "OS Dashboard Nav",
+      "values": [
+        {
+          "id": "bTHbf",
+          "name": "newsletters",
+          "dbValue": "newsletters",
+          "sort": 1
+        },
+        {
+          "id": "bTHbg",
+          "name": "drafts",
+          "dbValue": "drafts",
+          "sort": 2
+        },
+        {
+          "id": "bTHbh",
+          "name": "social",
+          "dbValue": "social",
+          "sort": 3
+        },
+        {
+          "id": "bTHbl",
+          "name": "profile",
+          "dbValue": "profile",
+          "sort": 4
+        },
+        {
+          "id": "bTHbm",
+          "name": "subscribers",
+          "dbValue": "subscribers",
+          "sort": 5
+        },
+        {
+          "id": "bTHgM",
+          "name": "editions",
+          "dbValue": "editions",
+          "sort": 6
+        }
+      ],
+      "attributes": null
+    },
+    {
+      "id": "os_testing_group",
+      "name": "OS Testing Group",
+      "values": [
+        {
+          "id": "bTMqA",
+          "name": "Internal",
+          "dbValue": "internal",
+          "sort": 1
+        }
+      ],
+      "attributes": null
+    },
+    {
+      "id": "os_nav_newsletter",
+      "name": "❓OS Nav Newsletter",
+      "values": [
+        {
+          "id": "bTHiz",
+          "name": "all",
+          "dbValue": "all",
+          "sort": 1
+        },
+        {
+          "id": "bTHPV",
+          "name": "edition",
+          "dbValue": "edition",
+          "sort": 2
+        },
+        {
+          "id": "bTHGI",
+          "name": "create",
+          "dbValue": "create",
+          "sort": 3
+        },
+        {
+          "id": "bTHGJ",
+          "name": "edit",
+          "dbValue": "edit",
+          "sort": 4
+        },
+        {
+          "id": "bTHhC",
+          "name": "links",
+          "dbValue": "links",
+          "sort": 5
+        }
+      ],
+      "attributes": null
+    },
+    {
+      "id": "os_dashboard_views",
+      "name": "OS Dashboard Views",
+      "values": [
+        {
+          "id": "bTJJl",
+          "name": "create",
+          "dbValue": "create",
+          "sort": 1
+        },
+        {
+          "id": "bTLhb",
+          "name": "subscribers",
+          "dbValue": "subscribers",
+          "sort": 2
+        }
+      ],
+      "attributes": null
+    },
+    {
+      "id": "os_onboarding_view",
+      "name": "OS Onboarding View",
+      "values": [
+        {
+          "id": "bTKAn",
+          "name": "create",
+          "dbValue": "create",
+          "sort": 1
+        },
+        {
+          "id": "bTKAr",
+          "name": "social",
+          "dbValue": "social",
+          "sort": 2
+        },
+        {
+          "id": "bTKAs",
+          "name": "review",
+          "dbValue": "review",
+          "sort": 3
+        }
+      ],
+      "attributes": null
+    },
+    {
+      "id": "os_code_verification",
+      "name": "OS Code verification",
+      "values": [
+        {
+          "id": "bTMbx",
+          "name": "Pending",
+          "dbValue": "pending",
+          "sort": 1
+        },
+        {
+          "id": "bTMcB",
+          "name": "Success",
+          "dbValue": "success",
+          "sort": 2
+        },
+        {
+          "id": "bTMcC",
+          "name": "Failed",
+          "dbValue": "failed",
+          "sort": 3
+        }
+      ],
+      "attributes": null
+    }
+  ],
+  "userTypes": [
+    {
+      "id": "name",
+      "name": "Name",
+      "fields": [],
+      "privacyRoles": []
+    },
+    {
+      "id": "log",
+      "name": "Log",
+      "fields": [
+        {
+          "id": "text1_text",
+          "name": "Text1",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "text2_text",
+          "name": "Text2",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "text3_text",
+          "name": "Text3",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "text4_text",
+          "name": "Text4",
+          "type": "text",
+          "isList": false,
+          "default": null
+        }
+      ],
+      "privacyRoles": [
+        {
+          "id": "everyone",
+          "name": "everyone",
+          "permissions": {
+            "view_all": false,
+            "search_for": false,
+            "auto_binding": false,
+            "view_attachments": false
+          },
+          "condition": null
+        },
+        {
+          "id": "superadmin_",
+          "name": "SuperAdmin",
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": false,
+            "view_attachments": true
+          },
+          "condition": {
+            "next": {
+              "next": {
+                "args": {
+                  "properties": {
+                    "option_set": "option.os_app_role",
+                    "option_value": "superadmin"
+                  },
+                  "type": "OneOptionValue",
+                  "is_slidable": false
+                },
+                "type": "Message",
+                "name": "equals",
+                "is_slidable": false
+              },
+              "type": "Message",
+              "name": "app_level_role_option_os_app_role",
+              "is_slidable": false
+            },
+            "type": "CurrentUser",
+            "is_slidable": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "user",
+      "name": "User",
+      "fields": [
+        {
+          "id": "n_text",
+          "name": "n",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "name_text",
+          "name": "Full Name",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "last_name_text",
+          "name": "Last name",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "first_name_text",
+          "name": "First Name",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "linkedin_url_text",
+          "name": "Linkedin URL",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "banner_image_image",
+          "name": "Image",
+          "type": "image",
+          "isList": false,
+          "default": "//ea8a6e40bdf04117d6c0a4f4e88c9f71.cdn.bubble.io/f1772006491568x335954286724097200/default%20image.jpg"
+        },
+        {
+          "id": "light_mode_boolean",
+          "name": "light_mode",
+          "type": "boolean",
+          "isList": false,
+          "default": false
+        },
+        {
+          "id": "bundle_team_id_text",
+          "name": "Bundle Team ID",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "confirmation_code_text",
+          "name": "Confirmation Code",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "account_verified_on_date",
+          "name": "Account Verified on",
+          "type": "date",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "address_geographic_address",
+          "name": "Address",
+          "type": "geographic_address",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "onboarding_complete_boolean",
+          "name": "Onboarding Complete",
+          "type": "boolean",
+          "isList": false,
+          "default": false
+        },
+        {
+          "id": "app_level_role_option_os_app_role",
+          "name": "App Level Role",
+          "type": "option.os_app_role",
+          "isList": false,
+          "default": "user"
+        },
+        {
+          "id": "linked_page_setup_custom_page_setup",
+          "name": "Linked Page setup",
+          "type": "custom.page_setup",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "last_social_login_option_social_media",
+          "name": "Last Social Login",
+          "type": "option.social_media",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "testing_groups_list_option_os_testing_group",
+          "name": "Testing Groups",
+          "type": "list.option.os_testing_group",
+          "isList": true,
+          "default": null
+        },
+        {
+          "id": "code_verification_option_os_code_verification",
+          "name": "Code Verification",
+          "type": "option.os_code_verification",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "linked_social_details_custom_social_account_links",
+          "name": "Linked Social Details",
+          "type": "custom.social_account_links",
+          "isList": false,
+          "default": null
+        }
+      ],
+      "privacyRoles": [
+        {
+          "id": "everyone",
+          "name": "everyone",
+          "permissions": {
+            "view_all": false,
+            "search_for": false,
+            "view_fields": {
+              "0": "name_text",
+              "1": "banner_image_image"
+            },
+            "auto_binding": false,
+            "view_attachments": false
+          },
+          "condition": null
+        },
+        {
+          "id": "users_own_data",
+          "name": "User's own data",
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": false,
+            "view_attachments": true
+          },
+          "condition": {
+            "next": {
+              "args": {
+                "type": "CurrentUser"
+              },
+              "type": "Message",
+              "name": "equals"
+            },
+            "type": "InjectedValue"
+          }
+        }
+      ]
+    },
+    {
+      "id": "links",
+      "name": "Link",
+      "fields": [
+        {
+          "id": "url_text",
+          "name": "URL",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "meta_text",
+          "name": "metaTitle",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "metaimage_image",
+          "name": "metaImage",
+          "type": "image",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "isgenerating_boolean",
+          "name": "isGenerating",
+          "type": "boolean",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "metadescription_text",
+          "name": "metaDescription",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "link_type_option_os_link_type",
+          "name": "Link Type",
+          "type": "option.os_link_type",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "related_edition_custom_edition",
+          "name": "Related edition",
+          "type": "custom.edition",
+          "isList": false,
+          "default": null
+        }
+      ],
+      "privacyRoles": [
+        {
+          "id": "owner_",
+          "name": "Owner",
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": false,
+            "view_attachments": true
+          },
+          "condition": {
+            "next": {
+              "next": {
+                "args": {
+                  "type": "CurrentUser",
+                  "is_slidable": false
+                },
+                "type": "Message",
+                "name": "equals",
+                "is_slidable": false
+              },
+              "type": "Message",
+              "name": "Created By",
+              "is_slidable": false
+            },
+            "type": "InjectedValue",
+            "is_slidable": false
+          }
+        },
+        {
+          "id": "everyone",
+          "name": "everyone",
+          "permissions": {
+            "view_all": false,
+            "search_for": false,
+            "auto_binding": false,
+            "view_attachments": false
+          },
+          "condition": null
+        }
+      ]
+    },
+    {
+      "id": "prompt",
+      "name": "Prompt",
+      "fields": [
+        {
+          "id": "plain_text",
+          "name": "System Plain",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "system_text",
+          "name": "System HTML",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "user_html_text",
+          "name": "User HTML",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "user_plain_text",
+          "name": "User Plain",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "prompt_type_option_os_prompt_type",
+          "name": "Prompt Type",
+          "type": "option.os_prompt_type",
+          "isList": false,
+          "default": null
+        }
+      ],
+      "privacyRoles": [
+        {
+          "id": "admin_",
+          "name": "Admin",
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": true,
+            "binding_fields": {
+              "0": "system_text",
+              "1": "plain_text",
+              "2": "user_html_text",
+              "3": "user_plain_text",
+              "4": "prompt_type_option_os_prompt_type"
+            },
+            "view_attachments": true
+          },
+          "condition": {
+            "next": {
+              "next": {
+                "args": {
+                  "properties": {
+                    "option_set": "option.os_app_role",
+                    "option_value": "superadmin"
+                  },
+                  "type": "OneOptionValue",
+                  "is_slidable": false
+                },
+                "next": {
+                  "args": {
+                    "next": {
+                      "next": {
+                        "type": "Message",
+                        "name": "is_not_empty",
+                        "is_slidable": false
+                      },
+                      "type": "Message",
+                      "name": "app_level_role_option_os_app_role",
+                      "is_slidable": false
+                    },
+                    "type": "CurrentUser",
+                    "is_slidable": false
+                  },
+                  "type": "Message",
+                  "name": "and_",
+                  "is_slidable": false
+                },
+                "type": "Message",
+                "name": "equals",
+                "is_slidable": false
+              },
+              "type": "Message",
+              "name": "app_level_role_option_os_app_role",
+              "is_slidable": false
+            },
+            "type": "CurrentUser",
+            "said": "bmV3c2dlbi05OTg0NQ==",
+            "is_slidable": false
+          }
+        },
+        {
+          "id": "everyone",
+          "name": "everyone",
+          "permissions": {
+            "view_all": false,
+            "search_for": false,
+            "auto_binding": false,
+            "view_attachments": false
+          },
+          "condition": null
+        },
+        {
+          "id": "testing_",
+          "name": "Logged in",
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": false,
+            "binding_fields": {
+              "0": "system_text",
+              "1": "plain_text",
+              "2": "user_html_text",
+              "3": "user_plain_text"
+            },
+            "view_attachments": true
+          },
+          "condition": {
+            "next": {
+              "type": "Message",
+              "name": "logged_in",
+              "is_slidable": false
+            },
+            "type": "CurrentUser",
+            "is_slidable": false
+          }
+        },
+        {
+          "id": "test_1776673496298",
+          "name": "Test Role",
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": false,
+            "view_attachments": true
+          },
+          "condition": {
+            "next": {
+              "next": {
+                "args": {
+                  "properties": {
+                    "option_set": "option.os_app_role",
+                    "option_value": "superadmin"
+                  },
+                  "type": "OneOptionValue",
+                  "is_slidable": false
+                },
+                "next": {
+                  "args": {
+                    "next": {
+                      "next": {
+                        "type": "Message",
+                        "name": "is_not_empty",
+                        "is_slidable": false
+                      },
+                      "type": "Message",
+                      "name": "app_level_role_option_os_app_role",
+                      "is_slidable": false
+                    },
+                    "type": "CurrentUser",
+                    "is_slidable": false
+                  },
+                  "type": "Message",
+                  "name": "and_",
+                  "is_slidable": false
+                },
+                "type": "Message",
+                "name": "equals",
+                "is_slidable": false
+              },
+              "type": "Message",
+              "name": "app_level_role_option_os_app_role",
+              "is_slidable": false
+            },
+            "type": "CurrentUser",
+            "said": "bmV3c2dlbi05OTg0NQ==",
+            "is_slidable": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "edition",
+      "name": "Edition",
+      "fields": [
+        {
+          "id": "focus_text",
+          "name": "❌Focus",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "links_text",
+          "name": "links",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "title_text",
+          "name": "Title",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "content_text",
+          "name": "Content",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "markdown_text",
+          "name": "markdown",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "number_number",
+          "name": "Number",
+          "type": "number",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "isdraft_boolean",
+          "name": "isDraft",
+          "type": "boolean",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "links_list_text",
+          "name": "❌Links text",
+          "type": "list.text",
+          "isList": true,
+          "default": null
+        },
+        {
+          "id": "haserror_boolean",
+          "name": "hasError",
+          "type": "boolean",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "banner_image_image",
+          "name": "Banner Image",
+          "type": "image",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "error_message_text",
+          "name": "error message",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "keywords_list_text",
+          "name": "Keywords",
+          "type": "list.text",
+          "isList": true,
+          "default": null
+        },
+        {
+          "id": "keywords_text_text",
+          "name": "Keywords text",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "social_image_image",
+          "name": "Social Image",
+          "type": "image",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "target_sector_text",
+          "name": "Target Sector",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "published_date_date",
+          "name": "Published Date",
+          "type": "date",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "isgenerating_boolean",
+          "name": "isGenerating",
+          "type": "boolean",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "banner_font_color_text",
+          "name": "Banner Font Color",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "meta_input_tokens_text",
+          "name": "meta_input_tokens",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "meta_output_tokens_text",
+          "name": "meta_output_tokens",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "banner_font_option_os_font",
+          "name": "Banner Font",
+          "type": "option.os_font",
+          "isList": false,
+          "default": "inter"
+        },
+        {
+          "id": "banner_title_bg_color_text",
+          "name": "Banner Title bg color",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "refined_keywords_list_text",
+          "name": "Refined Keywords",
+          "type": "list.text",
+          "isList": true,
+          "default": null
+        },
+        {
+          "id": "related_links_list_custom_links",
+          "name": "Related Links",
+          "type": "list.custom.links",
+          "isList": true,
+          "default": null
+        },
+        {
+          "id": "related_newsletter_custom_newletter",
+          "name": "Related Newsletter",
+          "type": "custom.newletter",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "banner_overlay_opacity_option_os_color_opacity",
+          "name": "Banner Overlay opacity",
+          "type": "option.os_color_opacity",
+          "isList": false,
+          "default": null
+        }
+      ],
+      "privacyRoles": [
+        {
+          "id": "owner_",
+          "name": "Owner",
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": false,
+            "view_attachments": true
+          },
+          "condition": {
+            "next": {
+              "next": {
+                "args": {
+                  "type": "CurrentUser",
+                  "is_slidable": false
+                },
+                "type": "Message",
+                "name": "equals",
+                "is_slidable": false
+              },
+              "type": "Message",
+              "name": "Created By",
+              "is_slidable": false
+            },
+            "type": "InjectedValue",
+            "is_slidable": false
+          }
+        },
+        {
+          "id": "everyone",
+          "name": "everyone",
+          "permissions": {
+            "view_all": false,
+            "search_for": true,
+            "view_fields": {
+              "0": "banner_font_color_text",
+              "1": "banner_font_option_os_font",
+              "2": "banner_image_image",
+              "3": "banner_title_bg_color_text",
+              "4": "content_text",
+              "5": "isdraft_boolean",
+              "6": "related_newsletter_custom_newletter",
+              "7": "number_number",
+              "8": "title_text",
+              "9": "Created Date",
+              "10": "Slug",
+              "11": "Created By",
+              "12": "banner_overlay_opacity_option_os_color_opacity",
+              "13": "social_image_image"
+            },
+            "auto_binding": false,
+            "view_attachments": true
+          },
+          "condition": null
+        }
+      ]
+    },
+    {
+      "id": "llm_usage",
+      "name": "LLM Usage",
+      "fields": [
+        {
+          "id": "raw_text",
+          "name": "raw",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "note_text",
+          "name": "Note",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "error_text",
+          "name": "Error",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "created_by_user",
+          "name": "Created By",
+          "type": "user",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "input_tokens_text",
+          "name": "Input Tokens",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "output_tokens_text",
+          "name": "Output Tokens",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "uses_websearch__boolean",
+          "name": "Uses websearch?",
+          "type": "boolean",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "related_edition_custom_edition",
+          "name": "Related edition",
+          "type": "custom.edition",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "related_newsletter_custom_newletter",
+          "name": "Related Newsletter",
+          "type": "custom.newletter",
+          "isList": false,
+          "default": null
+        }
+      ],
+      "privacyRoles": [
+        {
+          "id": "everyone",
+          "name": "everyone",
+          "permissions": {
+            "view_all": false,
+            "search_for": false,
+            "auto_binding": false,
+            "view_attachments": false
+          },
+          "condition": null
+        },
+        {
+          "id": "superadmin_",
+          "name": "SuperAdmin",
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": false,
+            "view_attachments": true
+          },
+          "condition": {
+            "next": {
+              "next": {
+                "args": {
+                  "properties": {
+                    "option_set": "option.os_app_role",
+                    "option_value": "superadmin"
+                  },
+                  "type": "OneOptionValue",
+                  "is_slidable": false
+                },
+                "type": "Message",
+                "name": "equals",
+                "is_slidable": false
+              },
+              "type": "Message",
+              "name": "app_level_role_option_os_app_role",
+              "is_slidable": false
+            },
+            "type": "CurrentUser",
+            "is_slidable": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "newletter",
+      "name": "Newsletter",
+      "fields": [
+        {
+          "id": "name_text",
+          "name": "Name",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "description_text",
+          "name": "Description",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "linkedin_url_text",
+          "name": "Linkedin URL",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "banner_image_image",
+          "name": "Banner Image",
+          "type": "image",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "keywords_list_text",
+          "name": "Keywords",
+          "type": "list.text",
+          "isList": true,
+          "default": null
+        },
+        {
+          "id": "target_sector_text",
+          "name": "Target Sector",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "owner_full_name_text",
+          "name": "Published by Full Name",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "subscriber_count_number",
+          "name": "Subscriber Count",
+          "type": "number",
+          "isList": false,
+          "default": 0
+        },
+        {
+          "id": "published_by_image_image",
+          "name": "Published by image",
+          "type": "image",
+          "isList": false,
+          "default": null
+        }
+      ],
+      "privacyRoles": [
+        {
+          "id": "viewer_",
+          "name": "Owner",
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": false,
+            "view_attachments": true
+          },
+          "condition": {
+            "next": {
+              "next": {
+                "args": {
+                  "type": "CurrentUser",
+                  "is_slidable": false
+                },
+                "type": "Message",
+                "name": "equals",
+                "is_slidable": false
+              },
+              "type": "Message",
+              "name": "Created By",
+              "is_slidable": false
+            },
+            "type": "InjectedValue",
+            "is_slidable": false
+          }
+        },
+        {
+          "id": "everyone",
+          "name": "everyone",
+          "permissions": {
+            "view_all": false,
+            "search_for": true,
+            "view_fields": {
+              "0": "banner_image_image",
+              "1": "description_text",
+              "2": "linkedin_url_text",
+              "3": "owner_full_name_text",
+              "4": "name_text",
+              "5": "published_by_image_image",
+              "6": "subscriber_count_number",
+              "7": "Slug"
+            },
+            "auto_binding": false,
+            "view_attachments": true
+          },
+          "condition": null
+        }
+      ]
+    },
+    {
+      "id": "page_setup",
+      "name": "Page setup",
+      "fields": [
+        {
+          "id": "linked_to_user_user",
+          "name": "Linked to User",
+          "type": "user",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "newsletter_banner_image_image",
+          "name": "Newsletter Banner Image",
+          "type": "image",
+          "isList": false,
+          "default": "//ea8a6e40bdf04117d6c0a4f4e88c9f71.cdn.bubble.io/f1770279126072x328792577172498400/31da78502d92dc3ff5466f2406a221e7eea2631a.png"
+        }
+      ],
+      "privacyRoles": [
+        {
+          "id": "owner_",
+          "name": "Owner",
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": false,
+            "view_attachments": true
+          },
+          "condition": {
+            "next": {
+              "next": {
+                "args": {
+                  "type": "CurrentUser",
+                  "is_slidable": false
+                },
+                "type": "Message",
+                "name": "equals",
+                "is_slidable": false
+              },
+              "type": "Message",
+              "name": "Created By",
+              "is_slidable": false
+            },
+            "type": "InjectedValue",
+            "is_slidable": false
+          }
+        },
+        {
+          "id": "everyone",
+          "name": "everyone",
+          "permissions": {
+            "view_all": false,
+            "search_for": false,
+            "view_fields": {
+              "0": "newsletter_banner_image_image"
+            },
+            "auto_binding": false,
+            "view_attachments": false
+          },
+          "condition": null
+        }
+      ]
+    },
+    {
+      "id": "subscribers",
+      "name": "Subscriber",
+      "fields": [
+        {
+          "id": "name_text",
+          "name": "Name",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "email_text",
+          "name": "email",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "related_newsletter_custom_newletter",
+          "name": "Related Newsletter",
+          "type": "custom.newletter",
+          "isList": false,
+          "default": null
+        }
+      ],
+      "privacyRoles": [
+        {
+          "id": "owner_",
+          "name": "Owner",
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": false,
+            "view_attachments": true
+          },
+          "condition": {
+            "next": {
+              "next": {
+                "args": {
+                  "type": "CurrentUser",
+                  "is_slidable": false
+                },
+                "type": "Message",
+                "name": "equals",
+                "is_slidable": false
+              },
+              "type": "Message",
+              "name": "Created By",
+              "is_slidable": false
+            },
+            "type": "InjectedValue",
+            "is_slidable": false
+          }
+        },
+        {
+          "id": "everyone",
+          "name": "everyone",
+          "permissions": {
+            "view_all": false,
+            "search_for": false,
+            "auto_binding": false,
+            "view_attachments": false
+          },
+          "condition": null
+        }
+      ]
+    },
+    {
+      "id": "social_posts",
+      "name": "Social Posts",
+      "fields": [
+        {
+          "id": "body_text",
+          "name": "body",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "social_option_social_media",
+          "name": "Social",
+          "type": "option.social_media",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "related_edition_custom_edition",
+          "name": "Related Edition",
+          "type": "custom.edition",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "socials_list_option_social_media",
+          "name": "Socials",
+          "type": "list.option.social_media",
+          "isList": true,
+          "default": null
+        },
+        {
+          "id": "related_newsletter_custom_newletter",
+          "name": "Related Newsletter",
+          "type": "custom.newletter",
+          "isList": false,
+          "default": null
+        }
+      ],
+      "privacyRoles": [
+        {
+          "id": "owner_",
+          "name": "Owner",
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": false,
+            "view_attachments": true
+          },
+          "condition": {
+            "next": {
+              "next": {
+                "args": {
+                  "type": "CurrentUser",
+                  "is_slidable": false
+                },
+                "type": "Message",
+                "name": "equals",
+                "is_slidable": false
+              },
+              "type": "Message",
+              "name": "Created By",
+              "is_slidable": false
+            },
+            "type": "InjectedValue",
+            "is_slidable": false
+          }
+        },
+        {
+          "id": "everyone",
+          "name": "everyone",
+          "permissions": {
+            "view_all": false,
+            "search_for": false,
+            "auto_binding": false,
+            "view_attachments": false
+          },
+          "condition": null
+        }
+      ]
+    },
+    {
+      "id": "email_verification",
+      "name": "Email Verification",
+      "fields": [
+        {
+          "id": "code_text",
+          "name": "Code",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "user_user",
+          "name": "User",
+          "type": "user",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "expires_in_date",
+          "name": "Expires in",
+          "type": "date",
+          "isList": false,
+          "default": null
+        }
+      ],
+      "privacyRoles": [
+        {
+          "id": "user_",
+          "name": "User",
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": false,
+            "view_attachments": true
+          },
+          "condition": {
+            "next": {
+              "next": {
+                "args": {
+                  "type": "CurrentUser",
+                  "is_slidable": false
+                },
+                "type": "Message",
+                "name": "equals",
+                "is_slidable": false
+              },
+              "type": "Message",
+              "name": "user_user",
+              "is_slidable": false
+            },
+            "type": "InjectedValue",
+            "is_slidable": false
+          }
+        },
+        {
+          "id": "everyone",
+          "name": "everyone",
+          "permissions": {
+            "view_all": false,
+            "search_for": false,
+            "auto_binding": false,
+            "view_attachments": false
+          },
+          "condition": null
+        }
+      ]
+    },
+    {
+      "id": "social_account_links",
+      "name": "Social Details",
+      "fields": [
+        {
+          "id": "user_linked_user",
+          "name": "User Linked",
+          "type": "user",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "facebook_code_text",
+          "name": "Facebook Code",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "linkedin_code_text",
+          "name": "LinkedIn Code",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "instagram_code_text",
+          "name": "Instagram Code",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "twitter_social_id_text",
+          "name": "Twitter Social ID",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "linkedin_social_id_text",
+          "name": "LinkedIn Social ID",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "facebook_channel_id_text",
+          "name": "Facebook Channel ID",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "linkedin_channel_id_text",
+          "name": "LinkedIn Channel ID",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "instagram_channel_id_text",
+          "name": "Instagram Channel ID",
+          "type": "text",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "twitteractivated__boolean",
+          "name": "twitterActivated?",
+          "type": "boolean",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "facebookactivated__boolean",
+          "name": "facebookActivated?",
+          "type": "boolean",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "linkedinactivated__boolean",
+          "name": "linkedInActivated?",
+          "type": "boolean",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "instagram_activated__boolean",
+          "name": "Instagram Activated?",
+          "type": "boolean",
+          "isList": false,
+          "default": null
+        },
+        {
+          "id": "connected_socials_list_option_social_media",
+          "name": "Connected Socials",
+          "type": "list.option.social_media",
+          "isList": true,
+          "default": null
+        }
+      ],
+      "privacyRoles": [
+        {
+          "id": "user_",
+          "name": "Owner",
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": false,
+            "view_attachments": true
+          },
+          "condition": {
+            "next": {
+              "next": {
+                "args": {
+                  "type": "CurrentUser",
+                  "is_slidable": false
+                },
+                "type": "Message",
+                "name": "equals",
+                "is_slidable": false
+              },
+              "type": "Message",
+              "name": "Created By",
+              "is_slidable": false
+            },
+            "type": "InjectedValue",
+            "is_slidable": false
+          }
+        },
+        {
+          "id": "owner2_",
+          "name": "Owner2",
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": false,
+            "view_attachments": true
+          },
+          "condition": {
+            "next": {
+              "next": {
+                "args": {
+                  "type": "CurrentUser",
+                  "is_slidable": false
+                },
+                "type": "Message",
+                "name": "equals",
+                "is_slidable": false
+              },
+              "type": "Message",
+              "name": "user_linked_user",
+              "is_slidable": false
+            },
+            "type": "InjectedValue",
+            "said": "bmV3c2dlbi05OTg0NQ==",
+            "is_slidable": false
+          }
+        },
+        {
+          "id": "everyone",
+          "name": "everyone",
+          "permissions": {
+            "view_all": false,
+            "search_for": false,
+            "auto_binding": false,
+            "view_attachments": false
+          },
+          "condition": null
+        }
+      ]
+    }
+  ]
+}
