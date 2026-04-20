@@ -1,0 +1,1604 @@
+{
+  "version": "1.0",
+  "user_types": {
+    "name": {
+      "display": "Name",
+      "deleted": true
+    },
+    "log": {
+      "display": "Log",
+      "fields": {
+        "text1_text": {
+          "display": "Text1",
+          "value": "text"
+        },
+        "text2_text": {
+          "display": "Text2",
+          "value": "text"
+        },
+        "text3_text": {
+          "display": "Text3",
+          "value": "text"
+        },
+        "text4_text": {
+          "display": "Text4",
+          "value": "text"
+        }
+      },
+      "privacy_role": {
+        "everyone": {
+          "display": "everyone",
+          "permissions": {
+            "view_all": false,
+            "search_for": false,
+            "auto_binding": false,
+            "view_attachments": false
+          }
+        },
+        "superadmin_": {
+          "condition": {
+            "next": {
+              "next": {
+                "args": {
+                  "properties": {
+                    "option_set": "option.os_app_role",
+                    "option_value": "superadmin"
+                  },
+                  "type": "OneOptionValue",
+                  "is_slidable": false
+                },
+                "type": "Message",
+                "name": "equals",
+                "is_slidable": false
+              },
+              "type": "Message",
+              "name": "app_level_role_option_os_app_role",
+              "is_slidable": false
+            },
+            "type": "CurrentUser",
+            "is_slidable": false
+          },
+          "display": "SuperAdmin",
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": false,
+            "view_attachments": true
+          }
+        }
+      }
+    },
+    "user": {
+      "display": "User",
+      "fields": {
+        "n_text": {
+          "display": "n",
+          "value": "text"
+        },
+        "name_text": {
+          "display": "Full Name",
+          "value": "text"
+        },
+        "last_name_text": {
+          "display": "Last name",
+          "value": "text"
+        },
+        "first_name_text": {
+          "display": "First Name",
+          "value": "text"
+        },
+        "description_text": {
+          "display": "Description - deleted",
+          "value": "text",
+          "deleted": true
+        },
+        "linkedin_url_text": {
+          "display": "Linkedin URL",
+          "value": "text"
+        },
+        "banner_image_image": {
+          "display": "Image",
+          "value": "image",
+          "default_val": "//ea8a6e40bdf04117d6c0a4f4e88c9f71.cdn.bubble.io/f1772006491568x335954286724097200/default%20image.jpg"
+        },
+        "keywords_list_text": {
+          "display": "Keywords - deleted",
+          "value": "list.text",
+          "deleted": true
+        },
+        "light_mode_boolean": {
+          "display": "light_mode",
+          "value": "boolean",
+          "default_val": false
+        },
+        "bundle_team_id_text": {
+          "display": "Bundle Team ID",
+          "value": "text"
+        },
+        "confirmation_code_text": {
+          "display": "Confirmation Code",
+          "value": "text"
+        },
+        "account_verified_on_date": {
+          "display": "Account Verified on",
+          "value": "date"
+        },
+        "address_geographic_address": {
+          "display": "Address",
+          "value": "geographic_address"
+        },
+        "onboarding_complete_boolean": {
+          "display": "Onboarding Complete",
+          "value": "boolean",
+          "default_val": false
+        },
+        "app_level_role_option_os_app_role": {
+          "display": "App Level Role",
+          "value": "option.os_app_role",
+          "default_val": "user"
+        },
+        "linked_page_setup_custom_page_setup": {
+          "display": "Linked Page setup",
+          "value": "custom.page_setup"
+        },
+        "last_social_login_option_social_media": {
+          "display": "Last Social Login",
+          "value": "option.social_media"
+        },
+        "testing_groups_list_option_os_testing_group": {
+          "display": "Testing Groups",
+          "value": "list.option.os_testing_group"
+        },
+        "code_verification_option_os_code_verification": {
+          "display": "Code Verification",
+          "value": "option.os_code_verification"
+        },
+        "linked_social_details_custom_social_account_links": {
+          "display": "Linked Social Details",
+          "value": "custom.social_account_links"
+        }
+      },
+      "privacy_role": {
+        "everyone": {
+          "display": "everyone",
+          "permissions": {
+            "view_all": false,
+            "search_for": false,
+            "view_fields": {
+              "0": "name_text",
+              "1": "banner_image_image"
+            },
+            "auto_binding": false,
+            "view_attachments": false
+          }
+        },
+        "users_own_data": {
+          "condition": {
+            "next": {
+              "args": {
+                "type": "CurrentUser"
+              },
+              "type": "Message",
+              "name": "equals"
+            },
+            "type": "InjectedValue"
+          },
+          "display": "User's own data",
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": false,
+            "view_attachments": true
+          }
+        }
+      }
+    },
+    "links": {
+      "display": "Link",
+      "fields": {
+        "url_text": {
+          "display": "URL",
+          "value": "text"
+        },
+        "meta_text": {
+          "display": "metaTitle",
+          "value": "text"
+        },
+        "metaimage_image": {
+          "display": "metaImage",
+          "value": "image"
+        },
+        "isgenerating_boolean": {
+          "display": "isGenerating",
+          "value": "boolean"
+        },
+        "metadescription_text": {
+          "display": "metaDescription",
+          "value": "text"
+        },
+        "link_type_option_os_link_type": {
+          "display": "Link Type",
+          "value": "option.os_link_type"
+        },
+        "related_edition_custom_edition": {
+          "display": "Related edition",
+          "value": "custom.edition"
+        }
+      },
+      "privacy_role": {
+        "owner_": {
+          "condition": {
+            "next": {
+              "next": {
+                "args": {
+                  "type": "CurrentUser",
+                  "is_slidable": false
+                },
+                "type": "Message",
+                "name": "equals",
+                "is_slidable": false
+              },
+              "type": "Message",
+              "name": "Created By",
+              "is_slidable": false
+            },
+            "type": "InjectedValue",
+            "is_slidable": false
+          },
+          "display": "Owner",
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": false,
+            "view_attachments": true
+          }
+        },
+        "everyone": {
+          "display": "everyone",
+          "permissions": {
+            "view_all": false,
+            "search_for": false,
+            "auto_binding": false,
+            "view_attachments": false
+          }
+        }
+      }
+    },
+    "prompt": {
+      "display": "Prompt",
+      "fields": {
+        "plain_text": {
+          "display": "System Plain",
+          "value": "text"
+        },
+        "system_text": {
+          "display": "System HTML",
+          "value": "text"
+        },
+        "user_html_text": {
+          "display": "User HTML",
+          "value": "text"
+        },
+        "user_plain_text": {
+          "display": "User Plain",
+          "value": "text"
+        },
+        "prompt_type_option_os_prompt_type": {
+          "display": "Prompt Type",
+          "value": "option.os_prompt_type"
+        }
+      },
+      "privacy_role": {
+        "admin_": {
+          "condition": {
+            "next": {
+              "next": {
+                "args": {
+                  "properties": {
+                    "option_set": "option.os_app_role",
+                    "option_value": "superadmin"
+                  },
+                  "type": "OneOptionValue",
+                  "is_slidable": false
+                },
+                "next": {
+                  "args": {
+                    "next": {
+                      "next": {
+                        "type": "Message",
+                        "name": "is_not_empty",
+                        "is_slidable": false
+                      },
+                      "type": "Message",
+                      "name": "app_level_role_option_os_app_role",
+                      "is_slidable": false
+                    },
+                    "type": "CurrentUser",
+                    "is_slidable": false
+                  },
+                  "type": "Message",
+                  "name": "and_",
+                  "is_slidable": false
+                },
+                "type": "Message",
+                "name": "equals",
+                "is_slidable": false
+              },
+              "type": "Message",
+              "name": "app_level_role_option_os_app_role",
+              "is_slidable": false
+            },
+            "type": "CurrentUser",
+            "said": "bmV3c2dlbi05OTg0NQ==",
+            "is_slidable": false
+          },
+          "display": "Admin",
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": true,
+            "binding_fields": {
+              "0": "system_text",
+              "1": "plain_text",
+              "2": "user_html_text",
+              "3": "user_plain_text",
+              "4": "prompt_type_option_os_prompt_type"
+            },
+            "view_attachments": true
+          }
+        },
+        "everyone": {
+          "display": "everyone",
+          "permissions": {
+            "view_all": false,
+            "search_for": false,
+            "auto_binding": false,
+            "view_attachments": false
+          }
+        },
+        "testing_": {
+          "condition": {
+            "next": {
+              "type": "Message",
+              "name": "logged_in",
+              "is_slidable": false
+            },
+            "type": "CurrentUser",
+            "is_slidable": false
+          },
+          "display": "Logged in",
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": false,
+            "binding_fields": {
+              "0": "system_text",
+              "1": "plain_text",
+              "2": "user_html_text",
+              "3": "user_plain_text"
+            },
+            "view_attachments": true
+          }
+        },
+        "test_1776673496298": {
+          "condition": {
+            "next": {
+              "next": {
+                "args": {
+                  "properties": {
+                    "option_set": "option.os_app_role",
+                    "option_value": "superadmin"
+                  },
+                  "type": "OneOptionValue",
+                  "is_slidable": false
+                },
+                "next": {
+                  "args": {
+                    "next": {
+                      "next": {
+                        "type": "Message",
+                        "name": "is_not_empty",
+                        "is_slidable": false
+                      },
+                      "type": "Message",
+                      "name": "app_level_role_option_os_app_role",
+                      "is_slidable": false
+                    },
+                    "type": "CurrentUser",
+                    "is_slidable": false
+                  },
+                  "type": "Message",
+                  "name": "and_",
+                  "is_slidable": false
+                },
+                "type": "Message",
+                "name": "equals",
+                "is_slidable": false
+              },
+              "type": "Message",
+              "name": "app_level_role_option_os_app_role",
+              "is_slidable": false
+            },
+            "type": "CurrentUser",
+            "said": "bmV3c2dlbi05OTg0NQ==",
+            "is_slidable": false
+          },
+          "display": "Test Role",
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": false,
+            "view_attachments": true
+          }
+        }
+      }
+    },
+    "edition": {
+      "display": "Edition",
+      "fields": {
+        "focus_text": {
+          "display": "❌Focus",
+          "value": "text"
+        },
+        "links_text": {
+          "display": "links",
+          "value": "text"
+        },
+        "title_text": {
+          "display": "Title",
+          "value": "text"
+        },
+        "content_text": {
+          "display": "Content",
+          "value": "text"
+        },
+        "markdown_text": {
+          "display": "markdown",
+          "value": "text"
+        },
+        "number_number": {
+          "display": "Number",
+          "value": "number"
+        },
+        "isdraft_boolean": {
+          "display": "isDraft",
+          "value": "boolean"
+        },
+        "links_list_text": {
+          "display": "❌Links text",
+          "value": "list.text"
+        },
+        "banner_font_text": {
+          "display": "Banner Font - deleted",
+          "value": "text",
+          "deleted": true
+        },
+        "haserror_boolean": {
+          "display": "hasError",
+          "value": "boolean"
+        },
+        "links1_list_text": {
+          "display": "links - deleted",
+          "value": "list.text",
+          "deleted": true
+        },
+        "banner_image_image": {
+          "display": "Banner Image",
+          "value": "image"
+        },
+        "error_message_text": {
+          "display": "error message",
+          "value": "text"
+        },
+        "keywords_list_text": {
+          "display": "Keywords",
+          "value": "list.text"
+        },
+        "keywords_text_text": {
+          "display": "Keywords text",
+          "value": "text"
+        },
+        "social_image_image": {
+          "display": "Social Image",
+          "value": "image"
+        },
+        "target_sector_text": {
+          "display": "Target Sector",
+          "value": "text"
+        },
+        "published_date_date": {
+          "display": "Published Date",
+          "value": "date"
+        },
+        "isgenerating_boolean": {
+          "display": "isGenerating",
+          "value": "boolean"
+        },
+        "banner_font_color_text": {
+          "display": "Banner Font Color",
+          "value": "text"
+        },
+        "meta_input_tokens_text": {
+          "display": "meta_input_tokens",
+          "value": "text"
+        },
+        "meta_output_tokens_text": {
+          "display": "meta_output_tokens",
+          "value": "text"
+        },
+        "banner_font_option_os_font": {
+          "display": "Banner Font",
+          "value": "option.os_font",
+          "default_val": "inter"
+        },
+        "banner_title_bg_color_text": {
+          "display": "Banner Title bg color",
+          "value": "text"
+        },
+        "refined_keywords_list_text": {
+          "display": "Refined Keywords",
+          "value": "list.text"
+        },
+        "related_links_list_custom_links": {
+          "display": "Related Links",
+          "value": "list.custom.links"
+        },
+        "related_newsletter_custom_newletter": {
+          "display": "Related Newsletter",
+          "value": "custom.newletter"
+        },
+        "banner_overlay_opacity_option_os_color_opacity": {
+          "display": "Banner Overlay opacity",
+          "value": "option.os_color_opacity"
+        }
+      },
+      "privacy_role": {
+        "owner_": {
+          "condition": {
+            "next": {
+              "next": {
+                "args": {
+                  "type": "CurrentUser",
+                  "is_slidable": false
+                },
+                "type": "Message",
+                "name": "equals",
+                "is_slidable": false
+              },
+              "type": "Message",
+              "name": "Created By",
+              "is_slidable": false
+            },
+            "type": "InjectedValue",
+            "is_slidable": false
+          },
+          "display": "Owner",
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": false,
+            "view_attachments": true
+          }
+        },
+        "everyone": {
+          "display": "everyone",
+          "permissions": {
+            "view_all": false,
+            "search_for": true,
+            "view_fields": {
+              "0": "banner_font_color_text",
+              "1": "banner_font_option_os_font",
+              "2": "banner_image_image",
+              "3": "banner_title_bg_color_text",
+              "4": "content_text",
+              "5": "isdraft_boolean",
+              "6": "related_newsletter_custom_newletter",
+              "7": "number_number",
+              "8": "title_text",
+              "9": "Created Date",
+              "10": "Slug",
+              "11": "Created By",
+              "12": "banner_overlay_opacity_option_os_color_opacity",
+              "13": "social_image_image"
+            },
+            "auto_binding": false,
+            "view_attachments": true
+          }
+        }
+      }
+    },
+    "llm_usage": {
+      "display": "LLM Usage",
+      "fields": {
+        "raw_text": {
+          "display": "raw",
+          "value": "text"
+        },
+        "note_text": {
+          "display": "Note",
+          "value": "text"
+        },
+        "error_text": {
+          "display": "Error",
+          "value": "text"
+        },
+        "created_by_user": {
+          "display": "Created By",
+          "value": "user"
+        },
+        "input_tokens_text": {
+          "display": "Input Tokens",
+          "value": "text"
+        },
+        "output_tokens_text": {
+          "display": "Output Tokens",
+          "value": "text"
+        },
+        "uses_websearch__boolean": {
+          "display": "Uses websearch?",
+          "value": "boolean"
+        },
+        "related_edition_custom_edition": {
+          "display": "Related edition",
+          "value": "custom.edition"
+        },
+        "related_newsletter_custom_newletter": {
+          "display": "Related Newsletter",
+          "value": "custom.newletter"
+        }
+      },
+      "privacy_role": {
+        "everyone": {
+          "display": "everyone",
+          "permissions": {
+            "view_all": false,
+            "search_for": false,
+            "auto_binding": false,
+            "view_attachments": false
+          }
+        },
+        "superadmin_": {
+          "condition": {
+            "next": {
+              "next": {
+                "args": {
+                  "properties": {
+                    "option_set": "option.os_app_role",
+                    "option_value": "superadmin"
+                  },
+                  "type": "OneOptionValue",
+                  "is_slidable": false
+                },
+                "type": "Message",
+                "name": "equals",
+                "is_slidable": false
+              },
+              "type": "Message",
+              "name": "app_level_role_option_os_app_role",
+              "is_slidable": false
+            },
+            "type": "CurrentUser",
+            "is_slidable": false
+          },
+          "display": "SuperAdmin",
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": false,
+            "view_attachments": true
+          }
+        }
+      }
+    },
+    "newletter": {
+      "display": "Newsletter",
+      "fields": {
+        "name_text": {
+          "display": "Name",
+          "value": "text"
+        },
+        "description_text": {
+          "display": "Description",
+          "value": "text"
+        },
+        "linkedin_url_text": {
+          "display": "Linkedin URL",
+          "value": "text"
+        },
+        "banner_image_image": {
+          "display": "Banner Image",
+          "value": "image"
+        },
+        "keywords_list_text": {
+          "display": "Keywords",
+          "value": "list.text"
+        },
+        "target_sector_text": {
+          "display": "Target Sector",
+          "value": "text"
+        },
+        "owner_full_name_text": {
+          "display": "Published by Full Name",
+          "value": "text"
+        },
+        "subscriber_count_number": {
+          "display": "Subscriber Count",
+          "value": "number",
+          "default_val": 0
+        },
+        "published_by_image_image": {
+          "display": "Published by image",
+          "value": "image"
+        }
+      },
+      "privacy_role": {
+        "viewer_": {
+          "condition": {
+            "next": {
+              "next": {
+                "args": {
+                  "type": "CurrentUser",
+                  "is_slidable": false
+                },
+                "type": "Message",
+                "name": "equals",
+                "is_slidable": false
+              },
+              "type": "Message",
+              "name": "Created By",
+              "is_slidable": false
+            },
+            "type": "InjectedValue",
+            "is_slidable": false
+          },
+          "display": "Owner",
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": false,
+            "view_attachments": true
+          }
+        },
+        "everyone": {
+          "display": "everyone",
+          "permissions": {
+            "view_all": false,
+            "search_for": true,
+            "view_fields": {
+              "0": "banner_image_image",
+              "1": "description_text",
+              "2": "linkedin_url_text",
+              "3": "owner_full_name_text",
+              "4": "name_text",
+              "5": "published_by_image_image",
+              "6": "subscriber_count_number",
+              "7": "Slug"
+            },
+            "auto_binding": false,
+            "view_attachments": true
+          }
+        }
+      }
+    },
+    "page_setup": {
+      "display": "Page setup",
+      "fields": {
+        "linked_to_user_user": {
+          "display": "Linked to User",
+          "value": "user"
+        },
+        "newsletter_banner_image_image": {
+          "display": "Newsletter Banner Image",
+          "value": "image",
+          "default_val": "//ea8a6e40bdf04117d6c0a4f4e88c9f71.cdn.bubble.io/f1770279126072x328792577172498400/31da78502d92dc3ff5466f2406a221e7eea2631a.png"
+        }
+      },
+      "privacy_role": {
+        "owner_": {
+          "condition": {
+            "next": {
+              "next": {
+                "args": {
+                  "type": "CurrentUser",
+                  "is_slidable": false
+                },
+                "type": "Message",
+                "name": "equals",
+                "is_slidable": false
+              },
+              "type": "Message",
+              "name": "Created By",
+              "is_slidable": false
+            },
+            "type": "InjectedValue",
+            "is_slidable": false
+          },
+          "display": "Owner",
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": false,
+            "view_attachments": true
+          }
+        },
+        "everyone": {
+          "display": "everyone",
+          "permissions": {
+            "view_all": false,
+            "search_for": false,
+            "view_fields": {
+              "0": "newsletter_banner_image_image"
+            },
+            "auto_binding": false,
+            "view_attachments": false
+          }
+        }
+      }
+    },
+    "subscribers": {
+      "display": "Subscriber",
+      "fields": {
+        "name_text": {
+          "display": "Name",
+          "value": "text"
+        },
+        "email_text": {
+          "display": "email",
+          "value": "text"
+        },
+        "related_newsletter_custom_newletter": {
+          "display": "Related Newsletter",
+          "value": "custom.newletter"
+        }
+      },
+      "privacy_role": {
+        "owner_": {
+          "condition": {
+            "next": {
+              "next": {
+                "args": {
+                  "type": "CurrentUser",
+                  "is_slidable": false
+                },
+                "type": "Message",
+                "name": "equals",
+                "is_slidable": false
+              },
+              "type": "Message",
+              "name": "Created By",
+              "is_slidable": false
+            },
+            "type": "InjectedValue",
+            "is_slidable": false
+          },
+          "display": "Owner",
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": false,
+            "view_attachments": true
+          }
+        },
+        "everyone": {
+          "display": "everyone",
+          "permissions": {
+            "view_all": false,
+            "search_for": false,
+            "auto_binding": false,
+            "view_attachments": false
+          }
+        }
+      }
+    },
+    "social_posts": {
+      "display": "Social Posts",
+      "fields": {
+        "body_text": {
+          "display": "body",
+          "value": "text"
+        },
+        "social_option_social_media": {
+          "display": "Social",
+          "value": "option.social_media"
+        },
+        "related_edition_custom_edition": {
+          "display": "Related Edition",
+          "value": "custom.edition"
+        },
+        "socials_list_option_social_media": {
+          "display": "Socials",
+          "value": "list.option.social_media"
+        },
+        "related_newsletter_custom_newletter": {
+          "display": "Related Newsletter",
+          "value": "custom.newletter"
+        }
+      },
+      "privacy_role": {
+        "owner_": {
+          "condition": {
+            "next": {
+              "next": {
+                "args": {
+                  "type": "CurrentUser",
+                  "is_slidable": false
+                },
+                "type": "Message",
+                "name": "equals",
+                "is_slidable": false
+              },
+              "type": "Message",
+              "name": "Created By",
+              "is_slidable": false
+            },
+            "type": "InjectedValue",
+            "is_slidable": false
+          },
+          "display": "Owner",
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": false,
+            "view_attachments": true
+          }
+        },
+        "everyone": {
+          "display": "everyone",
+          "permissions": {
+            "view_all": false,
+            "search_for": false,
+            "auto_binding": false,
+            "view_attachments": false
+          }
+        }
+      }
+    },
+    "email_verification": {
+      "display": "Email Verification",
+      "fields": {
+        "code_text": {
+          "display": "Code",
+          "value": "text"
+        },
+        "user_user": {
+          "display": "User",
+          "value": "user"
+        },
+        "expires_in_date": {
+          "display": "Expires in",
+          "value": "date"
+        }
+      },
+      "privacy_role": {
+        "user_": {
+          "condition": {
+            "next": {
+              "next": {
+                "args": {
+                  "type": "CurrentUser",
+                  "is_slidable": false
+                },
+                "type": "Message",
+                "name": "equals",
+                "is_slidable": false
+              },
+              "type": "Message",
+              "name": "user_user",
+              "is_slidable": false
+            },
+            "type": "InjectedValue",
+            "is_slidable": false
+          },
+          "display": "User",
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": false,
+            "view_attachments": true
+          }
+        },
+        "everyone": {
+          "display": "everyone",
+          "permissions": {
+            "view_all": false,
+            "search_for": false,
+            "auto_binding": false,
+            "view_attachments": false
+          }
+        }
+      }
+    },
+    "social_account_links": {
+      "display": "Social Details",
+      "fields": {
+        "user_linked_user": {
+          "display": "User Linked",
+          "value": "user"
+        },
+        "facebook_code_text": {
+          "display": "Facebook Code",
+          "value": "text"
+        },
+        "linkedin_code_text": {
+          "display": "LinkedIn Code",
+          "value": "text"
+        },
+        "instagram_code_text": {
+          "display": "Instagram Code",
+          "value": "text"
+        },
+        "twitter_social_id_text": {
+          "display": "Twitter Social ID",
+          "value": "text"
+        },
+        "linkedin_social_id_text": {
+          "display": "LinkedIn Social ID",
+          "value": "text"
+        },
+        "facebook_channel_id_text": {
+          "display": "Facebook Channel ID",
+          "value": "text"
+        },
+        "linkedin_channel_id_text": {
+          "display": "LinkedIn Channel ID",
+          "value": "text"
+        },
+        "instagram_channel_id_text": {
+          "display": "Instagram Channel ID",
+          "value": "text"
+        },
+        "twitteractivated__boolean": {
+          "display": "twitterActivated?",
+          "value": "boolean"
+        },
+        "facebookactivated__boolean": {
+          "display": "facebookActivated?",
+          "value": "boolean"
+        },
+        "linkedinactivated__boolean": {
+          "display": "linkedInActivated?",
+          "value": "boolean"
+        },
+        "instagram_activated__boolean": {
+          "display": "Instagram Activated?",
+          "value": "boolean"
+        },
+        "connected_socials_list_option_social_media": {
+          "display": "Connected Socials",
+          "value": "list.option.social_media"
+        }
+      },
+      "privacy_role": {
+        "user_": {
+          "condition": {
+            "next": {
+              "next": {
+                "args": {
+                  "type": "CurrentUser",
+                  "is_slidable": false
+                },
+                "type": "Message",
+                "name": "equals",
+                "is_slidable": false
+              },
+              "type": "Message",
+              "name": "Created By",
+              "is_slidable": false
+            },
+            "type": "InjectedValue",
+            "is_slidable": false
+          },
+          "display": "Owner",
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": false,
+            "view_attachments": true
+          }
+        },
+        "owner2_": {
+          "condition": {
+            "next": {
+              "next": {
+                "args": {
+                  "type": "CurrentUser",
+                  "is_slidable": false
+                },
+                "type": "Message",
+                "name": "equals",
+                "is_slidable": false
+              },
+              "type": "Message",
+              "name": "user_linked_user",
+              "is_slidable": false
+            },
+            "type": "InjectedValue",
+            "said": "bmV3c2dlbi05OTg0NQ==",
+            "is_slidable": false
+          },
+          "display": "Owner2",
+          "permissions": {
+            "view_all": true,
+            "search_for": true,
+            "auto_binding": false,
+            "view_attachments": true
+          }
+        },
+        "everyone": {
+          "display": "everyone",
+          "permissions": {
+            "view_all": false,
+            "search_for": false,
+            "auto_binding": false,
+            "view_attachments": false
+          }
+        }
+      }
+    }
+  },
+  "option_sets": {
+    "os_font": {
+      "display": "OS Font",
+      "values": {
+        "bTLKx": {
+          "display": "Noto Sans",
+          "db_value": "noto_sans",
+          "sort_factor": 2
+        },
+        "bTLLB": {
+          "display": "Manrope",
+          "db_value": "manrope",
+          "sort_factor": 3
+        },
+        "bTLLC": {
+          "display": "Inter",
+          "db_value": "inter",
+          "sort_factor": 1
+        }
+      },
+      "creation_source": "editor"
+    },
+    "os_view": {
+      "display": "OS Newsletter View",
+      "values": {
+        "bTHkH": {
+          "display": "edit",
+          "db_value": "edit",
+          "sort_factor": 2
+        },
+        "bTHkI": {
+          "display": "create",
+          "db_value": "create",
+          "sort_factor": 1
+        },
+        "bTHkP": {
+          "display": "links",
+          "db_value": "links",
+          "sort_factor": 3
+        },
+        "bTHkt": {
+          "display": "view",
+          "db_value": "view",
+          "sort_factor": 4
+        },
+        "bTIcv": {
+          "display": "publish",
+          "db_value": "publish",
+          "sort_factor": 5
+        },
+        "bTLiB": {
+          "display": "subscribers",
+          "db_value": "subscribers",
+          "sort_factor": 6
+        }
+      },
+      "creation_source": "editor"
+    },
+    "os_app_role": {
+      "display": "OS App role",
+      "values": {
+        "bTMQs": {
+          "display": "User",
+          "db_value": "user",
+          "sort_factor": 1
+        },
+        "bTMQt": {
+          "display": "Superadmin",
+          "db_value": "superadmin",
+          "sort_factor": 2
+        }
+      },
+      "creation_source": "editor"
+    },
+    "os_auth_view": {
+      "display": "OS Auth View",
+      "values": {
+        "bTJoZ": {
+          "display": "login",
+          "db_value": "login",
+          "sort_factor": 1
+        },
+        "bTJoa": {
+          "display": "signup",
+          "db_value": "signup",
+          "sort_factor": 2
+        },
+        "bTJob": {
+          "display": "verify",
+          "db_value": "verify",
+          "sort_factor": 3
+        }
+      },
+      "creation_source": "editor"
+    },
+    "os_bg_colors": {
+      "display": "OS BG Colors",
+      "values": {
+        "bTLEx": {
+          "display": "#FFFFFF",
+          "db_value": "_ffffff",
+          "sort_factor": 2
+        },
+        "bTLFB": {
+          "display": "#000000",
+          "db_value": "_000000",
+          "sort_factor": 3
+        },
+        "bTLIH": {
+          "display": "#C60303",
+          "db_value": "_c60303",
+          "sort_factor": 4
+        },
+        "bTLII": {
+          "display": "#FF0000",
+          "db_value": "_ff0000",
+          "sort_factor": 5
+        },
+        "bTLIJ": {
+          "display": "#FFA100",
+          "db_value": "_ffa100",
+          "sort_factor": 6
+        },
+        "bTLIN": {
+          "display": "#FFEE00",
+          "db_value": "_ffee00",
+          "sort_factor": 7
+        },
+        "bTLIO": {
+          "display": "#00FF00",
+          "db_value": "_00ff00",
+          "sort_factor": 8
+        },
+        "bTLIP": {
+          "display": "#00EEFF",
+          "db_value": "_00eeff",
+          "sort_factor": 9
+        },
+        "bTLIT": {
+          "display": "#0900FF",
+          "db_value": "_0900ff",
+          "sort_factor": 10
+        },
+        "bTLIU": {
+          "display": "#FF00EA",
+          "db_value": "_ff00ea",
+          "sort_factor": 11
+        },
+        "bTLIV": {
+          "display": "#B901E2",
+          "db_value": "_b901e2",
+          "sort_factor": 12
+        },
+        "bTLIZ": {
+          "display": "#FFFFFF00",
+          "db_value": "_ffffff00",
+          "sort_factor": 1
+        }
+      },
+      "creation_source": "editor"
+    },
+    "os_link_type": {
+      "display": "OS Link Type",
+      "values": {
+        "bTNVD": {
+          "display": "Auto",
+          "db_value": "auto",
+          "sort_factor": 1
+        },
+        "bTNVH": {
+          "display": "User",
+          "db_value": "user",
+          "sort_factor": 2
+        },
+        "bTNVI": {
+          "display": "API",
+          "db_value": "api",
+          "sort_factor": 3
+        }
+      },
+      "creation_source": "editor"
+    },
+    "social_media": {
+      "display": "Social Media",
+      "values": {
+        "bTIqu": {
+          "display": "FACEBOOK",
+          "db_value": "bTckK",
+          "sort_factor": 2
+        },
+        "bTIqv": {
+          "display": "TWITTER",
+          "db_value": "bTckL",
+          "sort_factor": 3
+        },
+        "bTIwd": {
+          "display": "LINKEDIN",
+          "db_value": "linkedin",
+          "sort_factor": 1
+        },
+        "bTMYR": {
+          "display": "INSTAGRAM",
+          "db_value": "instagram",
+          "sort_factor": 4
+        }
+      }
+    },
+    "os_font_colors": {
+      "display": "OS Font Colors",
+      "values": {
+        "bTLKT": {
+          "display": "#FFFFFF",
+          "db_value": "_ffffff",
+          "sort_factor": 1
+        },
+        "bTLKX": {
+          "display": "#B8B8B8",
+          "db_value": "_b8b8b8",
+          "sort_factor": 2
+        },
+        "bTLKY": {
+          "display": "#000000",
+          "db_value": "_000000",
+          "sort_factor": 3
+        }
+      },
+      "creation_source": "editor"
+    },
+    "os_prompt_type": {
+      "display": "OS Prompt type",
+      "values": {
+        "bTNez": {
+          "display": "Main",
+          "db_value": "main",
+          "sort_factor": 1
+        },
+        "bTNfD": {
+          "display": "Keyword",
+          "db_value": "keyword",
+          "sort_factor": 2
+        }
+      },
+      "creation_source": "editor"
+    },
+    "os_app_defaults": {
+      "display": "OS App Defaults",
+      "values": {
+        "bTMEx": {
+          "display": "Cover Banner",
+          "image": "//ea8a6e40bdf04117d6c0a4f4e88c9f71.cdn.bubble.io/f1770279317906x922401628576308200/31da78502d92dc3ff5466f2406a221e7eea2631a.png",
+          "db_value": "cover_banner",
+          "sort_factor": 1
+        }
+      },
+      "attributes": {
+        "image": {
+          "display": "image",
+          "value": "image",
+          "creation_source": "editor"
+        }
+      },
+      "creation_source": "editor"
+    },
+    "os_settings_nav": {
+      "display": "OS Settings Nav",
+      "values": {
+        "bTKRx": {
+          "display": "profile",
+          "db_value": "profile",
+          "sort_factor": 1
+        },
+        "bTKSB": {
+          "display": "social",
+          "db_value": "social",
+          "sort_factor": 2
+        }
+      },
+      "creation_source": "editor"
+    },
+    "os_color_opacity": {
+      "display": "OS Color Opacity",
+      "values": {
+        "bTLGV": {
+          "display": "0",
+          "hex": "00",
+          "db_value": "0_",
+          "sort_factor": 1
+        },
+        "bTLGW": {
+          "display": "10",
+          "hex": "1A",
+          "db_value": "10_",
+          "sort_factor": 2
+        },
+        "bTLGX": {
+          "display": "25",
+          "hex": "40",
+          "db_value": "25_",
+          "sort_factor": 3
+        },
+        "bTLGb": {
+          "display": "50",
+          "hex": "80",
+          "db_value": "50_",
+          "sort_factor": 4
+        },
+        "bTLGc": {
+          "display": "75",
+          "hex": "BF",
+          "db_value": "75_",
+          "sort_factor": 5
+        },
+        "bTLGd": {
+          "display": "100",
+          "hex": "FF",
+          "db_value": "100_",
+          "sort_factor": 6
+        }
+      },
+      "attributes": {
+        "hex": {
+          "display": "Hex",
+          "value": "text",
+          "creation_source": "editor"
+        }
+      },
+      "creation_source": "editor"
+    },
+    "os_dashboard_nav": {
+      "display": "OS Dashboard Nav",
+      "values": {
+        "bTHbf": {
+          "display": "newsletters",
+          "db_value": "newsletters",
+          "sort_factor": 1
+        },
+        "bTHbg": {
+          "display": "drafts",
+          "db_value": "drafts",
+          "sort_factor": 2
+        },
+        "bTHbh": {
+          "display": "social",
+          "db_value": "social",
+          "sort_factor": 3
+        },
+        "bTHbl": {
+          "display": "profile",
+          "db_value": "profile",
+          "sort_factor": 4
+        },
+        "bTHbm": {
+          "display": "subscribers",
+          "db_value": "subscribers",
+          "sort_factor": 5
+        },
+        "bTHgM": {
+          "display": "editions",
+          "db_value": "editions",
+          "sort_factor": 6
+        }
+      },
+      "creation_source": "editor"
+    },
+    "os_testing_group": {
+      "display": "OS Testing Group",
+      "values": {
+        "bTMqA": {
+          "display": "Internal",
+          "db_value": "internal",
+          "sort_factor": 1
+        }
+      },
+      "creation_source": "editor"
+    },
+    "os_nav_newsletter": {
+      "display": "❓OS Nav Newsletter",
+      "values": {
+        "bTHGI": {
+          "display": "create",
+          "db_value": "create",
+          "sort_factor": 3
+        },
+        "bTHGJ": {
+          "display": "edit",
+          "db_value": "edit",
+          "sort_factor": 4
+        },
+        "bTHPV": {
+          "display": "edition",
+          "db_value": "edition",
+          "sort_factor": 2
+        },
+        "bTHhC": {
+          "display": "links",
+          "db_value": "links",
+          "sort_factor": 5
+        },
+        "bTHiz": {
+          "display": "all",
+          "db_value": "all",
+          "sort_factor": 1
+        }
+      },
+      "creation_source": "editor"
+    },
+    "os_dashboard_views": {
+      "display": "OS Dashboard Views",
+      "values": {
+        "bTJJl": {
+          "display": "create",
+          "db_value": "create",
+          "sort_factor": 1
+        },
+        "bTLhb": {
+          "display": "subscribers",
+          "db_value": "subscribers",
+          "sort_factor": 2
+        }
+      },
+      "creation_source": "editor"
+    },
+    "os_onboarding_view": {
+      "display": "OS Onboarding View",
+      "values": {
+        "bTKAn": {
+          "display": "create",
+          "db_value": "create",
+          "sort_factor": 1
+        },
+        "bTKAr": {
+          "display": "social",
+          "db_value": "social",
+          "sort_factor": 2
+        },
+        "bTKAs": {
+          "display": "review",
+          "db_value": "review",
+          "sort_factor": 3
+        }
+      },
+      "creation_source": "editor"
+    },
+    "os_code_verification": {
+      "display": "OS Code verification",
+      "values": {
+        "bTMbx": {
+          "display": "Pending",
+          "db_value": "pending",
+          "sort_factor": 1
+        },
+        "bTMcB": {
+          "display": "Success",
+          "db_value": "success",
+          "sort_factor": 2
+        },
+        "bTMcC": {
+          "display": "Failed",
+          "db_value": "failed",
+          "sort_factor": 3
+        }
+      },
+      "creation_source": "editor"
+    }
+  }
+}
